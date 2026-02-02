@@ -19,4 +19,84 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;ba
 .btn{background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none}
 .small{font-size:13px;color:var(--muted)}
 .search-bar{flex:1;min-width:200px}
+/* ---------- Booking Page Styles ---------- */
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #222;
+    font-weight: 600;
+}
+
+/* Card container */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 14px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+}
+
+/* Form styles */
+.card form label {
+    display: block;
+    font-size: 15px;
+    color: #444;
+    margin: 10px 0 5px;
+}
+
+.card form input,
+.card form select,
+.card form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: #fafafa;
+    transition: 0.2s ease;
+}
+
+.card form input:focus {
+    border-color: #007bff;
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
+}
+
+/* Booking button */
+.btn {
+    width: 100%;
+    display: block;
+    background: #007bff;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: 0.25s ease;
+}
+
+.btn:hover {
+    background: #0056cc;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Price text */
+.card p strong {
+    color: #28a745;
+    font-size: 18px;
+}
+
 @media(max-width:700px){.controls{flex-direction:column;align-items:stretch}}
